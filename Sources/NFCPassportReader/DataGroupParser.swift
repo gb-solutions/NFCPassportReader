@@ -436,7 +436,7 @@ public class DataGroup7 : DataGroup {
         datagroupType = .DG7
     }
     
-    func getImage() -> UIImage? {
+    public func getImage() -> UIImage? {
         if imageData.count == 0 {
             return nil
         }
